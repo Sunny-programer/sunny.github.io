@@ -1,0 +1,88 @@
+ 
+  /* Header Styling */
+  header {
+    position: fixed; /* Makes the header fixed at the top */
+    top: 0; /* Ensures it stays at the very top */
+    width: 100%; /* Stretches header across the full width */
+    z-index: 1000; /* Keeps it above other elements */
+    background-color: lightblue; /* Blue background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    padding: 10px 0;
+}
+
+/* Navigation Links */
+nav ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers the navigation links */
+    gap: 30px; /* Adds space between links */
+}
+
+nav ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: black; /* White text for better contrast */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px; /* Adds padding for better clickability */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav ul li a:hover {
+    background-color:blue; /* Darker blue on hover */
+    color: #ffffff; /* Keeps text white on hover */
+}
+body {
+    background-image: url("./backin.avif"); /* Replace with your image path */
+    background-repeat: repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Makes the image cover the entire screen */
+    background-position: center; /* Centers the image */
+}
+.INFO-CON{
+    color: darkorange;
+    margin-left: 450px;
+    margin-top: 400pxx;
+}
+
+.container {
+    
+    align-items: left; /* Align items vertically (optional) */
+    margin-left: 0px; /* Adjust container's position */
+  }
+  
+  .map-su {
+    margin-right: 20px; /* Add space between text and image */
+    width: 10%;
+    height: 30%;
+    background-color: lightgray; /* Optional, just to see the div */
+  }
+  
+  .map-image {
+    width: 100px; /* Adjust image width */
+    height: 100px; /* Keep aspect ratio */
+    margin-top:150px;
+    margin-right: 1000px;
+  }
+  .container {
+        
+    align-items: right; /* Align items vertically (optional) */
+    margin-left: 0px; /* Adjust container's position */
+  }
+  
+  .php-su {
+    margin-right: 20px; /* Add space between text and image */
+    width: 10%;
+    height: 30%;
+    background-color: lightgray; /* Optional, just to see the div */
+  }
+  
+  .php-image {
+    width: 100px; /* Adjust image width */
+    height: 100px; /* Keep aspect ratio */
+    margin-bottom: 100px;
+    margin-left: 200px;
+  }
+ 
+ 
